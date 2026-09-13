@@ -1,0 +1,23 @@
+{
+  "schema": "rapp-d365-business-processes-mcp/1.0",
+  "name": "dynamics365-business-process-api",
+  "protocolVersion": "2024-11-05",
+  "generated": "2026-09-13T14:41:10Z",
+  "resources": [
+    {
+      "uri": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/processes.json",
+      "name": "processes",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/roots.json",
+      "name": "roots",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/products.json",
+      "name": "products",
+      "mimeType": "application/json"
+    }
+  ]
+}

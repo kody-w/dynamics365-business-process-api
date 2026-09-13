@@ -1,0 +1,437 @@
+{
+  "schema": "rapp-d365-business-processes/1.0",
+  "name": "dynamics365-business-process-api",
+  "version": "2026-07",
+  "generated": "2026-09-13T14:41:10Z",
+  "published_on": "2026-07-07",
+  "source": {
+    "about_url": "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/about",
+    "download_url": "https://aka.ms/BusinessProcessCatalog",
+    "workbook": "Business Process Catalog JUL 2026.xlsx",
+    "sha256": "f0c885799618ad3491419c04956bc2e4ade72b818935d091efc5e0100073d1ab"
+  },
+  "counts": {
+    "business_process": 677,
+    "end_to_end": 15,
+    "process_area": 94,
+    "scenario": 3592,
+    "system_process": 827,
+    "test_case": 1628
+  },
+  "entries": [
+    {
+      "id": "d6689987c110v0",
+      "parent_id": null,
+      "sequence_id": "10.00.000.000",
+      "level": "end_to_end",
+      "title": "Acquire to dispose",
+      "catalog_status": "30 - Updated",
+      "article_status": "60 - Published",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/acquire-to-dispose-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c9710v0",
+      "parent_id": null,
+      "sequence_id": "99.00.000.000",
+      "level": "end_to_end",
+      "title": "Administer to operate",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Customer Engagement"
+      ],
+      "products": [
+        "Sales"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/administer-to-operate-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c901v0",
+      "parent_id": null,
+      "sequence_id": "20.00.000.000",
+      "level": "end_to_end",
+      "title": "Case to resolution",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Customer Engagement",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/case-to-resolution-graphics.pptx?d=wf2809a298f41448a8a39bc973122fb79&csf=1&web=1&e=1J87Oy]",
+        "case-to-resolution-graphics.pptx",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/case-to-resolution-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c1456v0",
+      "parent_id": null,
+      "sequence_id": "30.00.000.000",
+      "level": "end_to_end",
+      "title": "Concept to market",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Azure",
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Power Platform",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/concept-to-market-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c2022v0",
+      "parent_id": null,
+      "sequence_id": "40.00.000.000",
+      "level": "end_to_end",
+      "title": "Design to retire",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Power Platform",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/design-to-retire-graphics.pptx?d=we8734c3901124290b161209ebd6ebdd7&csf=1&web=1&e=M2NR73]",
+        "design-to-retire-graphics.pptx",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/design-to-retire-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c2726v0",
+      "parent_id": null,
+      "sequence_id": "50.00.000.000",
+      "level": "end_to_end",
+      "title": "Forecast to plan",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Customer Engagement",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/forecast-to-plan-graphics.pptx?d=w09a61b02599d4e2bb707b79b945111d8&csf=1&web=1&e=sjMyID]",
+        "forecast-to-plan-graphics.pptx",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/forecast-to-plan-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c3344v0",
+      "parent_id": null,
+      "sequence_id": "55.00.000.000",
+      "level": "end_to_end",
+      "title": "Hire to retire",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Customer Engagement",
+        "Finance and Operations",
+        "Power Platform",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/hire-to-retire-graphics.pptx?d=w67954b86e1864fc497d3c099fe4a8bdd&csf=1&web=1&e=6BhX3m]",
+        "hire-to-retire-graphics.pptx",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/hire-to-retire-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c4149v0",
+      "parent_id": null,
+      "sequence_id": "60.00.000.000",
+      "level": "end_to_end",
+      "title": "Inventory to deliver",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/inventory-to-deliver-graphics.pptx?d=w13fa54c63c1848a6859908b10205eec4&csf=1&web=1&e=PXvAUD]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/inventory-to-deliver-introduction",
+        "inventory-to-deliver-graphics.pptx"
+      ]
+    },
+    {
+      "id": "d6689987c4914v0",
+      "parent_id": null,
+      "sequence_id": "65.00.000.000",
+      "level": "end_to_end",
+      "title": "Order to cash",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "https://learn.microsoft.com/dynamics365/guidance/business-process-catalog/order-to-cash-overview",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/order-to-cash-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c5725v0",
+      "parent_id": null,
+      "sequence_id": "70.00.000.000",
+      "level": "end_to_end",
+      "title": "Plan to produce",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/plan-to-produce-graphics.pptx?d=wce6e9c9d408243d093c54c40a52cd109&csf=1&web=1&e=VZan9R]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/plan-to-produce-introduction",
+        "plan-to-produce-graphics.pptx"
+      ]
+    },
+    {
+      "id": "d6689987c7166v0",
+      "parent_id": null,
+      "sequence_id": "80.00.000.000",
+      "level": "end_to_end",
+      "title": "Project to profit",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Power Platform",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/project-to-profit-graphics.pptx?d=wbbcf53c40bcf409d843f7d5da41a8e9d&csf=1&web=1&e=amu5li]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/project-to-profit-introduction",
+        "project-to-profit-graphics.pptx"
+      ]
+    },
+    {
+      "id": "d6689987c7775v0",
+      "parent_id": null,
+      "sequence_id": "85.00.000.000",
+      "level": "end_to_end",
+      "title": "Prospect to quote",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "https://learn.microsoft.com/en-us/Dynamics365/guidance/business-processes/prospect-to-quote-introduction"
+      ]
+    },
+    {
+      "id": "d6689987c8160v0",
+      "parent_id": null,
+      "sequence_id": "90.00.000.000",
+      "level": "end_to_end",
+      "title": "Record to report",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/record-to-report-graphics.pptx?d=wfdb63eb7fdbc43958af7b162a8ad194a&csf=1&web=1&e=ddBl7j]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/record-to-report-introduction",
+        "record-to-report-graphics.pptx"
+      ]
+    },
+    {
+      "id": "d6689987c9178v0",
+      "parent_id": null,
+      "sequence_id": "95.00.000.000",
+      "level": "end_to_end",
+      "title": "Service to deliver",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Azure",
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Power Platform",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/service-to-cash-graphics.pptx?d=wbc14c61bff0e41059733a796598950a4&csf=1&web=1&e=eLnWG1]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/service-to-cash-introduction",
+        "service-to-cash-graphics.pptx"
+      ]
+    },
+    {
+      "id": "d6689987c6275v0",
+      "parent_id": null,
+      "sequence_id": "75.00.000.000",
+      "level": "end_to_end",
+      "title": "Source to pay",
+      "catalog_status": "30 - Updated",
+      "article_status": "10 - Not started",
+      "application_families": [
+        "Business Central",
+        "Customer Engagement",
+        "Finance and Operations",
+        "Productivity"
+      ],
+      "products": [
+        "Business Central",
+        "Field Service",
+        "Finance",
+        "Microsoft 365",
+        "Project Operations",
+        "Supply Chain Management"
+      ],
+      "module": "",
+      "microsoft_references": [
+        "[https://bdo4.sharepoint.com/:p:/r/sites/bdodigital-erp/Shared%20Documents/Compliance/FastTrack/Business%20Process%20Catalog/Microsoft%20BPC%20-%202024.05/Business%20Process%20Flows/procure-to-pay-graphics.pptx?d=w8174b29e8ac94b70a3e8ff337bab1009&csf=1&web=1&e=MiXcGA]",
+        "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/procure-to-pay-introduction",
+        "procure-to-pay-graphics.pptx"
+      ]
+    }
+  ]
+}

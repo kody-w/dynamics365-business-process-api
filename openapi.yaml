@@ -6,12 +6,18 @@ info:
 servers:
   - url: https://kody-w.github.io/dynamics365-business-process-api
 paths:
-  /api/v1/catalog.json:
+  /registry.json:
     get:
       operationId: getCatalogMetadata
       responses:
         "200":
           description: Catalog version, provenance, counts, endpoints, and checksums.
+  /api/v1/status.json:
+    get:
+      operationId: getCatalogStatus
+      responses:
+        "200":
+          description: Current generated status and source checksum.
   /api/v1/roots.json:
     get:
       operationId: listEndToEndProcesses

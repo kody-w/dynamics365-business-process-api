@@ -1,0 +1,54 @@
+{
+  "schema": "rapp-static-api/1.0",
+  "name": "dynamics365-business-process-api",
+  "title": "Dynamics 365 Business Process API",
+  "description": "A read-only static projection of Microsoft's official Dynamics 365 Business Process Catalog.",
+  "spec": "https://raw.githubusercontent.com/kody-w/rapp-static-apis/main/SPEC.md",
+  "raw_base": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main",
+  "pages_base": "https://kody-w.github.io/dynamics365-business-process-api",
+  "generated": "2026-09-13T14:41:10Z",
+  "summary": {
+    "entries": 6833,
+    "business_process": 677,
+    "end_to_end": 15,
+    "process_area": 94,
+    "scenario": 3592,
+    "system_process": 827,
+    "test_case": 1628
+  },
+  "source": {
+    "about_url": "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/about",
+    "download_url": "https://aka.ms/BusinessProcessCatalog",
+    "workbook": "Business Process Catalog JUL 2026.xlsx",
+    "sha256": "f0c885799618ad3491419c04956bc2e4ade72b818935d091efc5e0100073d1ab"
+  },
+  "entries": [
+    {
+      "name": "processes",
+      "schema": "rapp-d365-business-processes/1.0",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/processes.json",
+      "pages_url": "https://kody-w.github.io/dynamics365-business-process-api/api/v1/processes.json",
+      "sha256": "e4076f5ef3dfcd2ace710f066c914a1a7f4483c9b31eda80e7f10e04a370bfec",
+      "sha8": "e4076f5ef3df",
+      "version_url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/versions/processes/e4076f5ef3df.json"
+    },
+    {
+      "name": "roots",
+      "schema": "rapp-d365-business-processes/1.0",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/roots.json",
+      "pages_url": "https://kody-w.github.io/dynamics365-business-process-api/api/v1/roots.json",
+      "sha256": "2a52757d4e42ab19af116a86f528b7a164eec32884b64f4dd50d3f4899f272a5",
+      "sha8": "2a52757d4e42",
+      "version_url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/versions/roots/2a52757d4e42.json"
+    },
+    {
+      "name": "products",
+      "schema": "rapp-d365-business-processes/1.0",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/products.json",
+      "pages_url": "https://kody-w.github.io/dynamics365-business-process-api/api/v1/products.json",
+      "sha256": "8f8e9b6ba6048e4dd50565e59ce9dba2d1641dcf72c447f927398672ba32820b",
+      "sha8": "8f8e9b6ba604",
+      "version_url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/versions/products/8f8e9b6ba604.json"
+    }
+  ]
+}

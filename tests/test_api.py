@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-API = ROOT / "docs" / "api" / "v1"
+API = ROOT / "api" / "v1"
 
 
 def load(name):
@@ -12,13 +12,14 @@ def load(name):
 
 
 def test_static_api_is_complete_and_cross_referenced():
-    catalog = load("catalog.json")
+    catalog = json.loads((ROOT / "registry.json").read_text(encoding="utf-8"))
     roots = load("roots.json")
     processes = load("processes.json")
     products = load("products.json")
 
-    assert catalog["schema"] == "d365.business-process-api/1"
-    assert catalog["counts"] == {
+    assert catalog["schema"] == "rapp-static-api/1.0"
+    assert catalog["summary"] == {
+        "entries": 6833,
         "business_process": 677,
         "end_to_end": 15,
         "process_area": 94,
@@ -44,9 +45,12 @@ def test_static_api_is_complete_and_cross_referenced():
 
 
 def test_catalog_checksums_match_static_files():
-    catalog = load("catalog.json")
-    for name, expected in catalog["sha256"].items():
-        assert hashlib.sha256((API / name).read_bytes()).hexdigest() == expected
+    catalog = json.loads((ROOT / "registry.json").read_text(encoding="utf-8"))
+    for entry in catalog["entries"]:
+        endpoint = API / f"{entry['name']}.json"
+        assert hashlib.sha256(endpoint.read_bytes()).hexdigest() == entry["sha256"]
+        version = ROOT / "versions" / entry["name"] / f"{entry['sha8']}.json"
+        assert version.read_bytes() == endpoint.read_bytes()
 
 
 def test_rapp_agent_reads_static_files(monkeypatch):
@@ -74,6 +78,8 @@ def test_rapp_agent_reads_static_files(monkeypatch):
 
     monkeypatch.setattr(module, "urlopen", local_urlopen)
     agent = module.BusinessProcessCatalogAgent()
+    status = agent.perform(action="catalog")
+    assert status["schema"] == "rapp-d365-business-processes-status/1.0"
     roots = agent.perform(action="roots")
     assert roots["count"] == 15
     search = agent.perform(action="search", query="prospect quote")

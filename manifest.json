@@ -1,0 +1,18 @@
+{
+  "schema": "rapp-static-api-manifest/1.0",
+  "name": "dynamics365-business-process-api",
+  "title": "Dynamics 365 Business Process API",
+  "description": "A read-only static projection of Microsoft's official Dynamics 365 Business Process Catalog.",
+  "owner": "kody-w",
+  "repository": "dynamics365-business-process-api",
+  "branch": "main",
+  "version": "2026-07",
+  "published_on": "2026-07-07",
+  "source": {
+    "about_url": "https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/about",
+    "download_url": "https://aka.ms/BusinessProcessCatalog",
+    "workbook_url": "https://download.microsoft.com/download/1effd379-242f-42fe-898c-897d45a54092/Business%20Process%20Catalog%20JUL%202026.xlsx",
+    "workbook_name": "Business Process Catalog JUL 2026.xlsx"
+  },
+  "policy": "observe"
+}

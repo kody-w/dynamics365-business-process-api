@@ -1,0 +1,9 @@
+# Dynamics 365 Business Process API
+
+> RAPP/1 read-only static API generated from Microsoft's official catalog.
+
+- Registry: https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/registry.json
+- Status: https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/status.json
+- Roots: https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/roots.json
+- Processes: https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/processes.json
+- Products: https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/products.json

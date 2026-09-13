@@ -1,0 +1,9 @@
+{
+  "schema": "rapp-d365-business-processes-status/1.0",
+  "name": "dynamics365-business-process-api",
+  "generated": "2026-09-13T14:41:10Z",
+  "ok": true,
+  "version": "2026-07",
+  "entries": 6833,
+  "source_sha256": "f0c885799618ad3491419c04956bc2e4ade72b818935d091efc5e0100073d1ab"
+}

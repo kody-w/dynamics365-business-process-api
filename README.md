@@ -12,7 +12,8 @@ Excel at runtime.
 After GitHub Pages deployment:
 
 ```text
-https://kody-w.github.io/dynamics365-business-process-api/api/v1/catalog.json
+https://kody-w.github.io/dynamics365-business-process-api/registry.json
+https://kody-w.github.io/dynamics365-business-process-api/api/v1/status.json
 https://kody-w.github.io/dynamics365-business-process-api/api/v1/roots.json
 https://kody-w.github.io/dynamics365-business-process-api/api/v1/processes.json
 https://kody-w.github.io/dynamics365-business-process-api/api/v1/products.json
@@ -20,7 +21,8 @@ https://kody-w.github.io/dynamics365-business-process-api/api/v1/products.json
 
 | File | Purpose |
 | --- | --- |
-| `catalog.json` | Version, provenance, counts, checksums, and endpoint map |
+| `registry.json` | RAPP/1 index, provenance, raw base, checksums, and immutable version URLs |
+| `status.json` | Current API health, version, entry count, and source checksum |
 | `roots.json` | The 15 end-to-end business processes |
 | `processes.json` | All six hierarchy levels in one compact collection |
 | `products.json` | Product-to-process reverse index |
@@ -73,14 +75,21 @@ Download the latest workbook from <https://aka.ms/BusinessProcessCatalog>, then:
 
 ```bash
 python -m pip install -r requirements-dev.txt
-python scripts/build_catalog.py "/path/to/Business Process Catalog.xlsx"
+python build.py --workbook "/path/to/Business Process Catalog.xlsx"
+python check.py
 python -m pytest -q
 ```
 
-The generator preserves factual catalog metadata only: Microsoft ID, process
+`manifest.json` is the hand-authored input and `build.py` is the one
+idempotent build step required by `rapp-static-api/1.0`. The generator
+preserves factual catalog metadata only: Microsoft ID, process
 sequence ID, hierarchy, title, status, application family, products, module,
 and Microsoft references. Long source descriptions and implementation content
 are intentionally not redistributed.
+
+The workbook itself is not committed. The generated registry, versioned
+endpoints, content-addressed immutable versions, discovery manifests, and
+generator are committed so changes remain reviewable and reproducible.
 
 ## Authority and licensing
 

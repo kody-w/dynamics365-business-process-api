@@ -1,0 +1,31 @@
+{
+  "schema": "rapp-d365-business-processes-agent-protocol/1.0",
+  "name": "dynamics365-business-process-api",
+  "generated": "2026-09-13T14:41:10Z",
+  "actions": [
+    {
+      "name": "catalog",
+      "method": "GET",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/registry.json",
+      "auth": "none"
+    },
+    {
+      "name": "roots",
+      "method": "GET",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/roots.json",
+      "auth": "none"
+    },
+    {
+      "name": "processes",
+      "method": "GET",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/processes.json",
+      "auth": "none"
+    },
+    {
+      "name": "products",
+      "method": "GET",
+      "url": "https://raw.githubusercontent.com/kody-w/dynamics365-business-process-api/main/api/v1/products.json",
+      "auth": "none"
+    }
+  ]
+}

@@ -71,7 +71,7 @@ class BusinessProcessCatalogAgent(BasicAgent):
     ):
         bounded = max(1, min(int(limit or 25), 100))
         if action == "catalog":
-            return self._load("catalog", base_url)
+            return self._load("status", base_url)
         if action == "products":
             rows = self._load("products", base_url)["products"]
             if product:
