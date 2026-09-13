@@ -1,0 +1,32 @@
+openapi: 3.1.0
+info:
+  title: Dynamics 365 Business Process Static API
+  version: 2026-07
+  description: Read-only generated projection of Microsoft's official Dynamics 365 Business Process Catalog.
+servers:
+  - url: https://kowildfe_microsoft.github.io/dynamics365-business-process-api
+paths:
+  /api/v1/catalog.json:
+    get:
+      operationId: getCatalogMetadata
+      responses:
+        "200":
+          description: Catalog version, provenance, counts, endpoints, and checksums.
+  /api/v1/roots.json:
+    get:
+      operationId: listEndToEndProcesses
+      responses:
+        "200":
+          description: The official end-to-end process records.
+  /api/v1/processes.json:
+    get:
+      operationId: listAllProcesses
+      responses:
+        "200":
+          description: All six hierarchy levels.
+  /api/v1/products.json:
+    get:
+      operationId: listProductMappings
+      responses:
+        "200":
+          description: Product names and related process IDs.
