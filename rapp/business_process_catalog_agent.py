@@ -14,7 +14,7 @@ except ImportError:
 
 
 DEFAULT_BASE_URL = (
-    "https://kowildfe_microsoft.github.io/"
+    "https://kody-w.github.io/"
     "dynamics365-business-process-api/api/v1"
 )
 

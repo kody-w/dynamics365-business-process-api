@@ -12,10 +12,10 @@ Excel at runtime.
 After GitHub Pages deployment:
 
 ```text
-https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/catalog.json
-https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/roots.json
-https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/processes.json
-https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/products.json
+https://kody-w.github.io/dynamics365-business-process-api/api/v1/catalog.json
+https://kody-w.github.io/dynamics365-business-process-api/api/v1/roots.json
+https://kody-w.github.io/dynamics365-business-process-api/api/v1/processes.json
+https://kody-w.github.io/dynamics365-business-process-api/api/v1/products.json
 ```
 
 | File | Purpose |
@@ -40,7 +40,7 @@ List end-to-end processes:
 
 ```bash
 curl -fsSL \
-  https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/roots.json \
+  https://kody-w.github.io/dynamics365-business-process-api/api/v1/roots.json \
   | jq '.entries[] | {id, sequence_id, title}'
 ```
 
@@ -48,7 +48,7 @@ Find direct children of Prospect to quote:
 
 ```bash
 curl -fsSL \
-  https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/processes.json \
+  https://kody-w.github.io/dynamics365-business-process-api/api/v1/processes.json \
   | jq '.entries[] | select(.parent_id == "d6689987c7775v0")'
 ```
 
@@ -56,7 +56,7 @@ Search locally after one download:
 
 ```bash
 curl -fsSL \
-  https://kowildfe_microsoft.github.io/dynamics365-business-process-api/api/v1/processes.json \
+  https://kody-w.github.io/dynamics365-business-process-api/api/v1/processes.json \
   | jq '.entries[] | select((.title + " " + (.products | join(" "))) | test("quote"; "i"))'
 ```
 

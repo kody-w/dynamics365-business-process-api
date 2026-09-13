@@ -4,7 +4,7 @@ info:
   version: 2026-07
   description: Read-only generated projection of Microsoft's official Dynamics 365 Business Process Catalog.
 servers:
-  - url: https://kowildfe_microsoft.github.io/dynamics365-business-process-api
+  - url: https://kody-w.github.io/dynamics365-business-process-api
 paths:
   /api/v1/catalog.json:
     get:
