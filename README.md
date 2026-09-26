@@ -1,5 +1,9 @@
 # Dynamics 365 Business Process API
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/dynamics365-business-process-api.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/dynamics365-business-process-api.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 A read-only, versioned static API generated from Microsoft's official
 [Dynamics 365 Business Process Catalog](https://aka.ms/BusinessProcessCatalog).
 
